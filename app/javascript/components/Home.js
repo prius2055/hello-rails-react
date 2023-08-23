@@ -1,9 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <main>
-      <h1>Rails React App. Finally working</h1>
+      <Link to="/greetings">
+        View Greetings
+      </Link>
+      <h1>Rails React App. Happy to meet you</h1>
       <h1>Oh super happy</h1>
     </main>
   );
