@@ -8,7 +8,7 @@ function Home() {
         View Greetings
       </Link>
       <h1>Rails React App. Happy to meet you</h1>
-      <h1>Oh super happy</h1>
+      <h1>Oh super happy today. Nice</h1>
     </main>
   );
 }
