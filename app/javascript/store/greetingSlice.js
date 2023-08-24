@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice, nanoid } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const getGreeting = createAsyncThunk('get/greeting', async () => {
-  const greeting = await axios.get('http://[::1]:3000/api/v1/greetings/1.json');
+  const greeting = await axios.get('http://[::1]:3000/api/v1/greetings');
   return greeting.data;
 });
 
