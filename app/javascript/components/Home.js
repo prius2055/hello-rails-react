@@ -4,11 +4,8 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <main>
-      <Link to="/greetings">
-        View Greetings
-      </Link>
-      <h1>Rails React App. Happy to meet you</h1>
-      <h1>Oh super happy today. Nice</h1>
+      <h1>Welcome to greetings app</h1>
+      <Link to="/greeting">Click here to view a random Greeting</Link>
     </main>
   );
 }
